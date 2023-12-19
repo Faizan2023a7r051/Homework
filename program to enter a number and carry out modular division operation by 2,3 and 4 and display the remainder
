@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float rem1,rem2,rem3;
+int no;
+clrscr();
+printf("\n enter number :");
+scanf("%d",&no);
+rem1=no%2;
+rem2=no%3;
+rem3=no%4;
+printf("\n modular division by 2 : %.2f",rem1);
+printf("\n modular division by 3 : %.2f",rem2);
+printf("\n modular division by 4 : %.2f",rem3);
+getch();
+}
